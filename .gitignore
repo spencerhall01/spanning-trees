@@ -1,0 +1,38 @@
+# Ignore MATLAB backup and autosave files
+*.asv
+*.bak
+*.tmp
+
+# Ignore compiled MATLAB files (if any)
+*.mex*
+*.p
+
+# Ignore typical MATLAB-generated output
+*.fig
+*.mat
+*.log
+*.dat
+
+# Ignore test output or intermediate results
+*.out
+*.txt
+*.csv
+
+# Ignore Jupyter/IPython if you ever use them
+.ipynb_checkpoints/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore everything in data/ and docs/ . . .
+data/*
+docs/*
+
+# . . . except what is explicitly allowed
+!data/.gitkeep
+!docs/.gitkeep
+
+# Ignore hidden IDE or editor folders (optional, based on what you use)
+.vscode/
+.idea/
