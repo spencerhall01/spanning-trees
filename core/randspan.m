@@ -26,7 +26,7 @@ display('randspan.m')
 %ulc (qubit in upper left corner of subgraph)
 %a (column-dimension of the subgraph)
 %b (row-dimension of the subgraph)
-%NOTE: {x0,y0} and {ulc,a,b} are mutually exclusive
+%NOTE: {x0,y0} and {ulc} are mutually exclusive
 
 %answer_mode
 %max_answers
