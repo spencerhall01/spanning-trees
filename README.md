@@ -8,21 +8,21 @@
    
     .
     ├── archive/     # Scripts as they were at the end of the research projects
-    ├── core/        # Core scripts used during the studies - may be updated later
     ├── data/        # I/O files for simple examples or testing - empty for now
     ├── docs/        # Notes, images, TODOs, links, etc. - empty for now
+    ├── scripts/     # Core scripts used during the studies - may be updated later
     ├── LICENSE      # License file (MIT)
     └── README.md    # Project overview and documentation
    
 ## Contents
    
-   ### `core/` – Core research scripts
+   ### `scripts/` – Core research scripts
    
    These are the most complete and reusable scripts, designed for Ising model studies on early D-Wave machines. Everything here has been tested and was in a working state at one point. If you would like to adapt the code, this would be the place to start. Copies of these are in the archive; the copies here may be updated in the future.
    
-   - `randspan.m` – Constructs a spanning tree via random walk on a subgraph of the D-Wave Chimera architecture and plants the Ising problem. The spanning tree algorithm is based on the method introduced by Broder (1989); see [Related Publications](#related-research-publications) below.
+   - `randspan.m` – Constructs a spanning tree via random walk on a subgraph of the D-Wave Chimera architecture and plants the Ising problem. The spanning tree algorithm is based on the method introduced by Broder (1989); see [Related Publications](#related-publications) below.
       
-   - `randspanmir.m` – Same as above, but enforces vertical mirror symmetry as an additional constraint on the Ising problem. This technique was adapted and extended in follow-up work by other collaborators; see [Related Publications](#related-research-publications) below.
+   - `randspanmir.m` – Same as above, but enforces vertical mirror symmetry as an additional constraint on the Ising problem. This technique was adapted and extended in follow-up work by other collaborators; see [Related Publications](#related-publications) below.
    
    **NOTE:** These scripts are monolithic; this was before I really learned about good software practices like modularization. However, I think the code is documented well enough that one should be able to follow the process. Some parts are commented out because I wasn't using them, not because they weren't functional.
    
